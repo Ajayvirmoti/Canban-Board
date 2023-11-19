@@ -4,6 +4,13 @@ body {
 
 .kanban-board {
   display: flex;
+  width:fit-content;
+  height: 100lvh;
+  background-color: #f5f5f5;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 10px;
+  border: 1px solid rgb(179, 178, 178);
 }
 
 .ticket-group {

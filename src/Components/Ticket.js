@@ -22,11 +22,13 @@ import "./Ticket.css";
 import Card from "./Card/Card.js";
 
 const Ticket = ({ ticket, user }) => (
-  <Card
+  <div className='ticket1'>
+    <Card
     id = {ticket.id}
     title={ticket.title}
-    tag = {"Fea"}
+    tags = {"Feature Request"}
   />
+  </div>
 );
 
 export default Ticket;

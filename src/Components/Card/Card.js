@@ -28,7 +28,7 @@ const Card = ({ id, title, tags, status }) => {
           <BsExclamationSquareFill />
         </div>
         <div className="tag">
-              <span>●</span> {"Featured"}
+              <span>●</span> {tags}
         </div>
       </div>
     </div>
