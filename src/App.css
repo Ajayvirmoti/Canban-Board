@@ -1,0 +1,17 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.kanban-board {
+  display: flex;
+}
+
+.ticket-group {
+  margin-right: 20px;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
